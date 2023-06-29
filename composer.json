@@ -36,7 +36,7 @@
     "prefer-stable": true,
     "require": {
         "php": ">=7.3",
-        "chillerlan/php-qrcode": "*",
+        "chillerlan/php-qrcode": "^4.3",
         "paragonie/constant_time_encoding": "^1.4|^2.0|9.99.99",
         "paragonie/random_compat": "9.99.100"
     },
