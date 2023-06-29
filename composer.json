@@ -1,7 +1,13 @@
 {
-    "name": "2amigos/2fa-library",
+    "name": "weitkamper/2fa-library",
     "description": "2 Factor Authentication (2FA) library",
     "type": "library",
+    "repositories": [
+        {
+            "type": "git",
+            "url": "git@github.com:weitkamper/qrcode-library.git"
+        }
+    ],
     "keywords": [
         "2amigos",
         "php",
@@ -30,7 +36,7 @@
     "prefer-stable": true,
     "require": {
         "php": ">=7.3",
-        "2amigos/qrcode-library": "^2.0",
+        "weitkamper/qrcode-library": "^2.0",
         "paragonie/constant_time_encoding": "^1.4|^2.0|9.99.99",
         "paragonie/random_compat": "^2.0"
     },
