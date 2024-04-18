@@ -2,12 +2,6 @@
     "name": "weitkamper/2fa-library",
     "description": "2 Factor Authentication (2FA) library",
     "type": "library",
-    "repositories": [
-        {
-            "type": "git",
-            "url": "git@github.com:weitkamper/qrcode-library.git"
-        }
-    ],
     "keywords": [
         "2amigos",
         "php",
